@@ -111,8 +111,9 @@ async def main():
         # Open the MIDI port
         output_port_names = mido.get_output_names()
 
-        # Print the list of output port names
-        
+       
+        # Find the MIDI port, which must be previously opened in loopMIDI. 
+        # The DAW must use loopMIDI as MIDI input.
         for name in output_port_names:
             if name[:8] == "loopMIDI":
                 port = mido.open_output(name)
