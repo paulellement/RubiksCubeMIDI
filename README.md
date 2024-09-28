@@ -1,4 +1,4 @@
-# RubiksCubeMIDI
+# Rubik's Cube MIDI
 A script that makes a Bluetooth Low Energy Rubik's Cube a MIDI instrument. Made for the McGill MAT Minor class "New Media Production".
 
 To run this code, you will need loopMIDI as a virtual MIDI port to send MIDI messages from your IDE to your digital audio workstation.
