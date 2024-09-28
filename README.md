@@ -1,7 +1,7 @@
 # RubiksCubeMIDI
 A script that makes a Bluetooth Low Energy Rubik's Cube a MIDI instrument. Made for the McGill MAT Minor class "New Media Production".
 
-To run this code, you will need loopMIDI as a virtual MIDI to send MIDI messages from your IDE to your digital audio workstation.
+To run this code, you will need loopMIDI as a virtual MIDI port to send MIDI messages from your IDE to your digital audio workstation.
 The decryption will only work on the GAN i3 Smart Cube, and your own MAC address must be used.
 
 Below is most of the report that was submitted along with the project itself. It summarizes the code and the process well.
