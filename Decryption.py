@@ -56,6 +56,8 @@ class GanGen2CubeEncrypter:
         #print("first 16 decrypted: ", decrypted_data[:16])
         return decrypted_data
 
+
+# IGNORE EVERYTHING BELOW, JUST USED TO TEST THE DECRYPTION
 def main():
     lines = [
         '51e283c805867fea6e421b6cd864a42a4ed4d742',
